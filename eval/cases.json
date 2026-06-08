@@ -1,0 +1,22 @@
+[
+  {
+    "id": "clean_individual",
+    "sample": "clean_individual",
+    "expect": { "enhanced_cdd": false, "max_rating": "medium" }
+  },
+  {
+    "id": "company_offshore_pep",
+    "sample": "company_offshore_pep",
+    "expect": { "enhanced_cdd": true, "min_rating": "high" }
+  },
+  {
+    "id": "smsf_overseas_funds",
+    "sample": "smsf_overseas_funds",
+    "expect": { "enhanced_cdd": true, "min_rating": "high" }
+  },
+  {
+    "id": "overpayment_smr",
+    "sample": "overpayment_smr",
+    "expect": { "smr": true, "min_rating": "high" }
+  }
+]

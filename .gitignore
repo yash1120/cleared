@@ -1,0 +1,111 @@
+# ---------------------------------------------------------------------------- #
+# Cleared — git ignore rules
+# ---------------------------------------------------------------------------- #
+
+# --- Secrets & local config ----------------------------------------------- #
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# --- Python --------------------------------------------------------------- #
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+.installed.cfg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# virtualenvs
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# test / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+
+# notebooks
+.ipynb_checkpoints/
+
+# --- Application data (runtime; never commit) ----------------------------- #
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backups/
+exports/
+tmp/
+
+# Generated artefacts (PDFs, CSV exports, reminder logs)
+*.pdf.tmp
+cleared-records.csv
+signups.csv
+reminders.log
+
+# --- Frontend (Vite + React + TS) ----------------------------------------- #
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/coverage/
+frontend/*.local
+frontend/.eslintcache
+*.log
+
+# --- Docker / runtime ----------------------------------------------------- #
+.docker/
+docker-compose.override.yml
+
+# --- IDE / editor --------------------------------------------------------- #
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.shared.json
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS junk -------------------------------------------------------------- #
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Claude Code / local agent state -------------------------------------- #
+.claude/settings.local.json
+.claude/cache/
+.claude/sessions/
+
+# --- One-off scratch ------------------------------------------------------ #
+_*.py
+scratch/
+*.tmp
+*.bak

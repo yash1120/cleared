@@ -1,0 +1,120 @@
+{
+  "version": "austrac-re-mvp-2026-05",
+  "disclaimer": "MVP EDUCATIONAL SUBSET - NOT LEGAL ADVICE. This rule pack is a condensed, paraphrased representation of selected AUSTRAC AML/CTF obligations for real estate, built for a prototype. Rule IDs (e.g. RE-CDD-01) are internal references for grounding, not official citations. All obligations, dates and thresholds must be verified against the AML/CTF Act 2006, the AML/CTF Rules, and current AUSTRAC guidance before any real-world use.",
+  "rules": [
+    {
+      "id": "RE-SCOPE-01",
+      "category": "Scope",
+      "title": "Designated services (real estate)",
+      "text": "From 1 July 2026, a real estate business provides a designated service when, in the course of carrying on a business, it acts as an agent for a seller or buyer in the sale or transfer of real estate, or acts as a buyer's agent. Providing a designated service makes the business a reporting entity with AML/CTF obligations."
+    },
+    {
+      "id": "RE-ENROL-01",
+      "category": "Enrolment",
+      "title": "Enrolment and registration",
+      "text": "A reporting entity must enrol with AUSTRAC. Enrolment opened on 31 March 2026; an entity providing designated services on 1 July 2026 must enrol by 29 July 2026."
+    },
+    {
+      "id": "RE-PROG-01",
+      "category": "Program",
+      "title": "AML/CTF program",
+      "text": "A reporting entity must adopt and maintain a written AML/CTF program: an ML/TF risk assessment plus risk-based policies, procedures, systems and controls, with board and senior-management oversight."
+    },
+    {
+      "id": "RE-CDD-01",
+      "category": "CustomerDueDiligence",
+      "title": "Initial CDD - identify and verify the customer",
+      "text": "Before or when providing a designated service, identify the customer and verify their identity using reliable and independent documents or data. For an individual, collect and verify full name, date of birth, and residential address."
+    },
+    {
+      "id": "RE-CDD-02",
+      "category": "CustomerDueDiligence",
+      "title": "Who the customer is",
+      "text": "The customer is the party to whom the designated service is provided: for a selling agent this is the vendor; for a buyer's agent this is the purchaser. Identify and verify that customer."
+    },
+    {
+      "id": "RE-BO-01",
+      "category": "BeneficialOwnership",
+      "title": "Beneficial ownership",
+      "text": "Where the customer is a company, trust, partnership or SMSF, identify the beneficial owners - the individuals who ultimately own or control the customer (for example, 25% or more ownership, or control) - including a trust's trustees, settlor and beneficiaries, and take reasonable measures to verify them."
+    },
+    {
+      "id": "RE-BO-02",
+      "category": "BeneficialOwnership",
+      "title": "Ownership and control structure",
+      "text": "Understand the ownership and control structure of a non-individual customer. Complex or opaque structures with no clear commercial rationale are higher risk and warrant closer scrutiny."
+    },
+    {
+      "id": "RE-VERIFY-01",
+      "category": "Verification",
+      "title": "Verification standard",
+      "text": "Verify identity from reliable and independent sources (original or certified documents, or electronic data verification). Record what was verified and how it was verified."
+    },
+    {
+      "id": "RE-PEP-01",
+      "category": "PEP",
+      "title": "Politically exposed persons",
+      "text": "Determine whether the customer or a beneficial owner is a politically exposed person (PEP). Foreign PEPs are high risk and require enhanced CDD and senior-management approval; domestic and international-organisation PEPs require a risk-based approach."
+    },
+    {
+      "id": "RE-SANCTIONS-01",
+      "category": "Sanctions",
+      "title": "Sanctions screening",
+      "text": "Screen customers and beneficial owners against the DFAT Consolidated List and UN sanctions. Providing a designated service to a sanctioned person is prohibited; a true sanctions match is unacceptable risk and must be escalated and reported."
+    },
+    {
+      "id": "RE-OCDD-01",
+      "category": "OngoingCDD",
+      "title": "Ongoing customer due diligence",
+      "text": "Monitor the business relationship and keep KYC information current on a risk basis. Review the customer when circumstances change or when red flags arise."
+    },
+    {
+      "id": "RE-ECDD-01",
+      "category": "EnhancedCDD",
+      "title": "Enhanced CDD triggers",
+      "text": "Apply enhanced CDD where ML/TF risk is high - for example a foreign PEP, a sanctions nexus, a high-risk jurisdiction, unusual or complex transactions, unexplained source of funds or wealth, or where a suspicious matter report has been or will be submitted."
+    },
+    {
+      "id": "RE-ECDD-02",
+      "category": "EnhancedCDD",
+      "title": "Source of funds and wealth",
+      "text": "For higher-risk customers, take reasonable measures to establish the source of funds and source of wealth, and assess whether they are consistent with what is known about the customer."
+    },
+    {
+      "id": "RE-RELY-01",
+      "category": "Reliance",
+      "title": "Reliance on third parties",
+      "text": "A reporting entity may rely on certain third parties to carry out elements of CDD but remains responsible for compliance; reliance must meet the conditions set out in the AML/CTF rules."
+    },
+    {
+      "id": "RE-SMR-01",
+      "category": "SuspiciousMatterReporting",
+      "title": "Suspicious matter reports",
+      "text": "Submit a Suspicious Matter Report (SMR) to AUSTRAC when you form a suspicion on reasonable grounds that a matter relates to money laundering, terrorism financing, proceeds of crime, or an offence. Submit within 3 business days of forming the suspicion (within 24 hours if it relates to terrorism financing)."
+    },
+    {
+      "id": "RE-SMR-02",
+      "category": "SuspiciousMatterReporting",
+      "title": "Suspicious indicators (real estate)",
+      "text": "Indicators include: attempts to overpay; third-party or unexplained funding; large or unusual cash components; reluctance or refusal to provide identity; use of opaque structures to obscure ownership; transactions inconsistent with the customer's profile; and rushed transactions with little regard to price."
+    },
+    {
+      "id": "RE-TTR-01",
+      "category": "ThresholdTransactionReporting",
+      "title": "Threshold transaction reports",
+      "text": "Report physical-currency (cash) transactions of A$10,000 or more, or the foreign-currency equivalent, to AUSTRAC as a Threshold Transaction Report (TTR)."
+    },
+    {
+      "id": "RE-RECORD-01",
+      "category": "RecordKeeping",
+      "title": "Record-keeping",
+      "text": "Keep CDD records and transaction records for 7 years and make them available to AUSTRAC on request."
+    },
+    {
+      "id": "RE-TIPOFF-01",
+      "category": "TippingOff",
+      "title": "Tipping-off",
+      "text": "Do not disclose to the customer or any other person that a suspicious matter report has been or will be submitted, or that related information has been provided to AUSTRAC."
+    }
+  ]
+}

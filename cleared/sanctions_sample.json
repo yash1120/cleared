@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dmitri Volkov",
+    "list": "Sample sanctions list",
+    "source": "CLEARED_SAMPLE",
+    "details": "FICTITIOUS demo entry. Stands in for a DFAT/UN consolidated-list match."
+  },
+  {
+    "name": "General Ibrahim Sesay",
+    "list": "Sample sanctions list",
+    "source": "CLEARED_SAMPLE",
+    "details": "FICTITIOUS demo entry. Stands in for a sanctioned foreign official."
+  },
+  {
+    "name": "Mariana Costa Ribeiro",
+    "list": "Sample PEP list",
+    "source": "CLEARED_SAMPLE",
+    "details": "FICTITIOUS demo entry. Stands in for a foreign politically exposed person."
+  },
+  {
+    "name": "Wei Zhang",
+    "list": "Sample PEP list",
+    "source": "CLEARED_SAMPLE",
+    "details": "FICTITIOUS demo entry. Common name - included to demonstrate false-positive handling."
+  },
+  {
+    "name": "Aleksandr Petrov Sanctionovich",
+    "list": "Sample sanctions list",
+    "source": "CLEARED_SAMPLE",
+    "details": "FICTITIOUS demo entry."
+  }
+]
