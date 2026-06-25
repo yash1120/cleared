@@ -1,6 +1,9 @@
 # Deploying Cleared
 
-Three ways to show Cleared to people, fastest first. All of them work **with no API key**
+> **Live instance:** <https://cleared-f25b.onrender.com> (Render free tier — first load after idle
+> takes ~50 s while it wakes).
+
+Ways to show Cleared to people, fastest first. All of them work **with no API key**
 (offline mock mode) and seed a polished demo dataset automatically, so you always land on a
 populated dashboard.
 

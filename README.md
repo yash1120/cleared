@@ -14,6 +14,28 @@
 [![claude](https://img.shields.io/badge/Claude-Sonnet%204.6%20%2F%20Opus%204.7-D97757)](https://www.anthropic.com/)
 [![tests](https://img.shields.io/badge/tests-39%20passing-22c55e)](#tests)
 [![licence](https://img.shields.io/badge/licence-proprietary-lightgrey)](#licence)
+[![live demo](https://img.shields.io/badge/▶_live_demo-cleared--f25b.onrender.com-059669)](https://cleared-f25b.onrender.com)
+
+---
+
+## 🚀 Live demo
+
+**→ [cleared-f25b.onrender.com](https://cleared-f25b.onrender.com)**
+
+Sign in with the seeded demo account (it's also an admin, so you can see the operator console):
+
+| | |
+|---|---|
+| **Email** | `demo@cleared.com.au` |
+| **Password** | `demo1234` |
+
+The demo runs in offline **mock mode** — assessments are instant and free, and the full product
+surface works (dashboard, charts, records, audit trail, reminders, integrations, admin). It's
+seeded with 15 assessments across every risk rating, a drafted SMR, overdue reviews, and a beta
+inbox, so you land on a populated dashboard.
+
+> ⏱️ **First load may take ~50 s.** The free Render tier sleeps after 15 minutes idle; the first
+> request wakes it. Subsequent loads are instant.
 
 ---
 
