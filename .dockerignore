@@ -1,0 +1,28 @@
+# Keep the build context lean — these are rebuilt/ignored inside the image.
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend deps + local build (the image rebuilds dist from source in stage 1).
+frontend/node_modules/
+frontend/dist/
+
+# Local runtime data + secrets — never bake into the image.
+data/
+*.db
+*.db-*
+.env
+.env.*
+!.env.example
+
+# Docs / git / editor noise
+.git/
+.github/
+.vscode/
+.idea/
+*.md
+node_modules/

@@ -1,0 +1,28 @@
+# Render.com Blueprint — one-click deploy of Cleared as a Docker web service.
+# Docs: https://render.com/docs/blueprint-spec
+#
+# Deploy: push to GitHub, then in Render -> New -> Blueprint, pick this repo.
+# The free plan has an ephemeral filesystem; Cleared re-seeds demo data on each
+# cold boot (CLEARED_SEED_DEMO=1), so the live URL is never empty. For durable
+# storage, switch `plan` to starter and uncomment the `disk` block below.
+services:
+  - type: web
+    name: cleared
+    runtime: docker
+    plan: free
+    region: singapore            # closest Render region to AU; use a paid AU host for real data
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: CLEARED_SECRET_KEY
+        generateValue: true       # Render generates a strong secret and keeps it stable
+      - key: CLEARED_ADMIN_EMAILS
+        value: demo@cleared.com.au
+      - key: CLEARED_SEED_DEMO
+        value: "1"
+      - key: ANTHROPIC_API_KEY
+        sync: false               # set in the dashboard to switch from mock to live Claude
+    # disk:                       # requires a paid plan; not needed for the demo
+    #   name: cleared-data
+    #   mountPath: /data
+    #   sizeGB: 1
